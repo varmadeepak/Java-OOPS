@@ -93,11 +93,10 @@ and then the constructor assignement would be stu1.studentRollNo=studentRollNo; 
   6.this can be used to return the current class instance from the method.
 
 
+
 ### 5: Code for the Concepts covered above : 
 
-<pre>
 '''java
-
 package org.example;
 
 class Student{
@@ -136,5 +135,4 @@ public class Main {
         Deepak.printStudentDetails();
     }
 }
-</pre>
 
