@@ -62,9 +62,7 @@ There are 3 types of constructors:
 
 **Answer**: The **this** keyword refers to the current instance of class or the current object. The this keyword essentially allows you to access the attributes and methods of the current object
 
-**Example** : consider a class 
-```java
-
+Example: consider a class 
 class Student{
     String studentRollNo;
     String studentName;
@@ -79,6 +77,7 @@ class Student{
         this.studentGPA=studentGPA;
     }
 }
+
 **Explanation** : Here if object is created as  Student stu1 = new Student("1","Deepak",23,8.53f); 
 and then the constructor assignement would be stu1.studentRollNo=studentRollNo; -> stu1.studentRollNo="1"; 
 
